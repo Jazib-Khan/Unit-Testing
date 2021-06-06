@@ -55,8 +55,8 @@ public class getTime {
                     }
                     break;
             }
-
         }
-
+        newRest = newRestList.toArray(new restaurants[newRestList.size()]);
+        return newRest;
     }
 }
