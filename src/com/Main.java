@@ -10,8 +10,8 @@ public class Main {
         try {
             allRestaurants restaurant = mapper.readValue(new URL("http://intelligent-social-robots-ws.com/restaurant-data.json"), allRestaurants.class);
             //getCuisine.getCuisine(restaurant, "Mexican", "Queens");
-            getHotel.getHotel(restaurant, "Manhattan");
-
+            //getHotel.getHotel(restaurant, "Manhattan");
+            getReviews.getReviews(restaurant, "Mexican", 4);
         } catch (IOException e) {
             e.printStackTrace();
         }
