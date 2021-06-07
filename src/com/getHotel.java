@@ -45,8 +45,8 @@ public class getHotel {
         double totalLng;
         double total = 0;
 
-        double restLat = restArray.restaurants[i].latlong.lat;
-        double restLng = restArray.restaurants[i].latlong.lng;
+        double restLat = restArray.restaurants[i].latlng.lat;
+        double restLng = restArray.restaurants[i].latlng.lng;
 
         if (restLat < lat) {
             totalLat = lat - restLat;

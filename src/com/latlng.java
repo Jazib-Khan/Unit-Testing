@@ -1,6 +1,6 @@
 package com;
 
-public class latlong {
+public class latlng {
     public double lat;
     public double lng;
 }

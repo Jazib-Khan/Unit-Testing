@@ -7,10 +7,18 @@ public class restaurants {
     public String neighborhood;
     public String photograph;
     public String address;
-    public latlong latlong;
-    public String cuisinType;
-    public String operatingHours;
+    public latlng latlng;
+    public String cuisine_type;
+    public operating_hours operating_hours;
     public reviews[] reviews;
     public double distance;
+
+    public String getName() { return name;}
+
+    public int getDOHMH_inspection_score() { return DOHMH_inspection_score;}
+
+    public double getDistance() {
+        return distance;
+    }
 
 }

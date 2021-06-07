@@ -1,6 +1,6 @@
 package com;
 
-public class operatingHours {
+public class operating_hours {
     public String Monday;
     public String Tuesday;
     public String Wednesday;

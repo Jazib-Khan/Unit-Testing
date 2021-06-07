@@ -17,40 +17,40 @@ public class getTime {
 
             switch(dayInput) {
                 case "Monday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Monday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Monday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Monday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Monday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;
                 case "Tuesday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Tuesday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Tuesday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Tuesday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Tuesday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;
                 case "Wednesday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Wednesday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Wednesday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Wednesday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Wednesday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;case "Thursday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Thursday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Thursday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Thursday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Thursday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;case "Friday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Friday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Friday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Friday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Friday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;case "Saturday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Saturday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Saturday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Saturday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Saturday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;case "Sunday":
-                    if (!"Closed".equals(restArray.restaurants[i].operatingHours.Sunday)) {
-                        openTime = restArray.restaurants[i].operatingHours.Sunday;
+                    if (!"Closed".equals(restArray.restaurants[i].operating_hours.Sunday)) {
+                        openTime = restArray.restaurants[i].operating_hours.Sunday;
                         compareTime(openTime, restArray, newRestList, i, timeInput);
                     }
                     break;
