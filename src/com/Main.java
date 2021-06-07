@@ -9,9 +9,9 @@ public class Main {
         ObjectMapper mapper = new ObjectMapper();
         try {
             allRestaurants restaurant = mapper.readValue(new URL("http://intelligent-social-robots-ws.com/restaurant-data.json"), allRestaurants.class);
-            //getCuisine.getCuisine(restaurant, "Mexican", "Queens");
-            //getHotel.getHotel(restaurant, "Manhattan");
-            //getReviews.getReviews(restaurant, "Mexican", 4);
+            getCuisine.getCuisine(restaurant, "Mexican", "Queens");
+            getHotel.getHotel(restaurant, "Manhattan");
+            getReviews.getReviews(restaurant, "Mexican", 4);
             getScore.getScore(restaurant, "Queens");
         } catch (IOException e) {
             e.printStackTrace();
