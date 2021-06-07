@@ -9,7 +9,8 @@ public class Main {
         ObjectMapper mapper = new ObjectMapper();
         try {
             allRestaurants restaurant = mapper.readValue(new URL("http://intelligent-social-robots-ws.com/restaurant-data.json"), allRestaurants.class);
-            getCuisine.getCuisine(restaurant, "Mexican", "Queens");
+            //getCuisine.getCuisine(restaurant, "Mexican", "Queens");
+            getHotel.getHotel(restaurant, "Manhattan");
 
         } catch (IOException e) {
             e.printStackTrace();

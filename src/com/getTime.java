@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class getTime {
+/*public class getTime {
     static public restaurants[] getTime(allRestaurants restArray, String dayInput, String timeInput){
         restaurants[] newRest;
         ArrayList<restaurants> newRestList = new ArrayList<>();
@@ -59,4 +59,4 @@ public class getTime {
         newRest = newRestList.toArray(new restaurants[newRestList.size()]);
         return newRest;
     }
-}
+}*/
