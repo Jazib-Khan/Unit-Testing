@@ -9,23 +9,21 @@ public class getHotel {
         restaurants[] newRest;
         ArrayList<restaurants> newRestList = new ArrayList<>();
 
-        double dif = 0;
-        double lat = 0;
-        double lng = 0;
+        double cd = 0;
 
         for (int i = 0; i < restArray.restaurants.length; i++) {
             switch (neighInput){
                 case "Manhattan":
-                    dif = calculateDistance(i, 40.752831, -73.985748, restArray);
+                    cd = calculateDistance(i, 40.752831, -73.985748, restArray);
                     break;
                 case "Brooklyn":
-                    dif = calculateDistance(i, 40.753990, -73.949240, restArray);
+                    cd = calculateDistance(i, 40.753990, -73.949240, restArray);
                     break;
                 case "Queens":
-                    dif = calculateDistance(i, 40.689510, -73.988100, restArray);
+                    cd = calculateDistance(i, 40.689510, -73.988100, restArray);
                     break;
             }
-            restArray.restaurants[i].distance = dif;
+            restArray.restaurants[i].distance = cd;
 
             if (restArray.restaurants[i].neighborhood.equals(neighInput)) {
                 newRestList.add(restArray.restaurants[i]);
